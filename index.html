@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monaco Editor with Auto-Formatting</title>
+    <!-- HTMLHint -->
+
+    <!-- ESLint (Browser Version) -->
+    <script src="https://cdn.jsdelivr.net/npm/eslint@8.48.0/dist/eslint.min.js"></script>
+
+    <!-- CSSLint -->
+    <script src="https://cdn.jsdelivr.net/npm/csslint@1.0.5/dist/csslint.js"></script>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Toolbar -->
+    <div id="toolbar">
+      <input type="file" id="upload-btn" />
+      <button id="download-btn">Download HTML</button>
+    </div>
+
+    <!-- Editor & Output -->
+    <div id="editor-container">
+      <div id="editor"></div>
+      <div id="output">
+        <iframe id="output-frame"></iframe>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.40.0/min/vs/loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/htmlhint@latest/dist/htmlhint.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
