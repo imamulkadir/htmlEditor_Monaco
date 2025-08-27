@@ -1,4 +1,4 @@
-# HTML Editor by Imamul Kadir
+# HTML Editor
 
 A lightweight HTML editor built with Monaco Editor, featuring live preview, syntax highlighting, and HTML validation.
 
