@@ -2,6 +2,8 @@
 
 A lightweight HTML editor built with Monaco Editor, featuring live preview, syntax highlighting, and HTML validation.
 
+![HTML Editor](he.png)
+
 ## Project Structure
 
 The project consists of three main files:
